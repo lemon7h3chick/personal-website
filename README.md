@@ -11,6 +11,16 @@ npm run dev
 
 Build for production with `npm run build`, or create a static site with `npm run generate`.
 
+## Screenshots
+
+### Home
+
+![Home page screenshot](screenshots/home-screenshot.png)
+
+### Profile
+
+![Profile page screenshot](screenshots/profile-screenshot.png)
+
 ## Edit the profile
 
 Update `app/data/profile.ts` to change the name, introduction, education, skills, interests, or hobbies. Both pages read from that file. The interest and hobby entries are starter copy and can be replaced with personal details.
