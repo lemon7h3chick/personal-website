@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="site-frame flex min-h-screen flex-col">
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
