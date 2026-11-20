@@ -29,16 +29,16 @@ useSeoMeta({
         </div>
       </div>
 
-      <div class="hero-portrait animate-in animate-delay-1" role="img" aria-label="Initials avatar for John Keneth Diola">
+      <div class="hero-portrait animate-in animate-delay-1">
         <div class="portrait-topline"><span>JKD / 01</span><span>STUDY / 01</span></div>
-        <div class="portrait-art" aria-hidden="true">
-          <div class="portrait-orbit orbit-one" />
-          <div class="portrait-orbit orbit-two" />
-          <div class="portrait-orbit orbit-three" />
-          <div class="portrait-monogram">{{ profile.initials }}</div>
-          <span class="portrait-star star-one" />
-          <span class="portrait-star star-two" />
-          <span class="portrait-coordinate">IDEAS →<br>PRACTICE</span>
+        <div class="portrait-art">
+          <div class="portrait-orbit orbit-one" aria-hidden="true" />
+          <div class="portrait-orbit orbit-two" aria-hidden="true" />
+          <div class="portrait-orbit orbit-three" aria-hidden="true" />
+          <img class="portrait-photo" src="/profile.jpg" :alt="profile.name" width="960" height="960">
+          <span class="portrait-star star-one" aria-hidden="true" />
+          <span class="portrait-star star-two" aria-hidden="true" />
+          <span class="portrait-coordinate" aria-hidden="true">IDEAS →<br>PRACTICE</span>
         </div>
         <div class="portrait-caption">
           <span class="caption-label">Currently</span>

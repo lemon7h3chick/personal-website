@@ -11,7 +11,7 @@ const navigation = [
 <template>
   <header class="site-header page-container mx-auto flex w-full items-center justify-between">
     <NuxtLink class="brand-link" to="/" :aria-label="`${profile.name} — home`">
-      <span class="brand-mark" aria-hidden="true">{{ profile.initials }}</span>
+      <span class="brand-mark" aria-hidden="true">keki</span>
       <span class="brand-copy">
         <span class="brand-name">{{ profile.name }}</span>
         <span class="brand-role">Personal portfolio</span>

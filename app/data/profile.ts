@@ -45,4 +45,4 @@ export const profile = {
     { name: 'Collecting design inspiration', icon: 'compass' },
     { name: 'Listening to music', icon: 'music' },
   ],
-}
+};
